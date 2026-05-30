@@ -442,7 +442,9 @@ I'm actively seeking opportunities in:
 I bring hands-on experience with SIEM platforms, log analysis, detection rule development, and incident investigation workflows — not just theoretical knowledge.
 
 📧 K.Metellus32@gmail.com  
+
 💼 www.linkedin.com/in/kmetellus 
+
 🐙 (https://github.com/kmetellus1
 
 ---
