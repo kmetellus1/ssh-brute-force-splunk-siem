@@ -344,14 +344,17 @@ index=main sourcetype=linux_secure "Failed password"
 ### Dashboard – Full Monitoring View
 ![SSH Brute Force Monitoring Dashboard](screenshots/dashboard.png)
 > Real-time view showing failed login attempts over time and top attacking IPs. IP `192.168.1.10` is clearly the dominant source with 5 failed attempts.
+<img width="1902" height="716" alt="dashboard" src="https://github.com/user-attachments/assets/83cbb4d7-be1a-4fa9-97b7-459e348fc5a8" />
 
 ### Top Targeted User Accounts Panel
 ![Top Targeted User Accounts](screenshots/alert-config.png)
 > The `deploy` account was the most targeted (5 attempts), followed by `test` and `root` (2 each). This pattern is consistent with automated credential stuffing tools.
+<img width="1915" height="230" alt="field-extraction" src="https://github.com/user-attachments/assets/fdd5cb71-811e-4824-92f6-3dd7395795e9" />
 
 ### Alert Configuration
 ![Alert Configuration](screenshots/alert-config-detail.png)
 > Splunk alert configured to fire hourly when ≥5 failed SSH attempts are detected from a single IP within a 5-minute window. Actions: Add to Triggered Alerts + Send Email.
+<img width="1844" height="443" alt="alert-config" src="https://github.com/user-attachments/assets/14d55812-8e38-42a5-9a75-111a49f2073d" />
 
 ---
 
